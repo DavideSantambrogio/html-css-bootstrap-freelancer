@@ -40,7 +40,7 @@
         width: 100px;
     }
 
-
+col1
 }
 
 
@@ -50,9 +50,8 @@
 /* pc */
 @media screen and (min-width: 992px) {
     /* header */
-    .container-header {
-        max-width: 750px;      
-    }
-
+    [container] {max-width: 1024px;}
+         
+    
 
 }

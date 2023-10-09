@@ -10,6 +10,7 @@
     --card5: #0E38B5;
     --card6: #CCB2A3;
     --footer-top: #3A546D;
+    --txt: #2C3E50;
 }
 
 /* common */
@@ -17,7 +18,9 @@
     background-color: var(--section);
 }
 
-
+img {
+    max-width: 100%;
+}
 
 /* header */
 header {
@@ -90,4 +93,29 @@ header {
 .hero h3 {
     font-size: 1rem;
     padding: 1rem 0;
+}
+
+/* portfolio */
+.container-portfolio {
+    padding-top: 2rem;
+}
+
+.container-portfolio h3{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container-portfolio .star {
+    color: var(--txt);  
+    margin-bottom: 1rem;
+
+}
+
+.container-portfolio .star .lines{
+    border: 3px solid var(--txt);
+}
+
+.radius {
+    border-radius: 1rem;
+    margin-bottom: 2rem;
 }
