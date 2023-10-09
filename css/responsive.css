@@ -1,0 +1,31 @@
+/* tablet */
+
+@media screen and (min-width: 768px) {
+    .header h2{
+        font-size: 1.3rem
+    }   
+    
+    .bars{
+        display: none;
+    }
+
+    header ul {
+        padding: 0;
+        margin: 0;
+        display: flex !important;
+        gap: 1rem;
+        list-style-type: none;
+        font-size: 0.8rem;       
+    }
+
+
+}
+
+
+
+
+
+/* pc */
+@media screen and (min-width: 992px) {
+
+}
